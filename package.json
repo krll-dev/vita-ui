@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "watch": "ng build -- --base-href https://${{github.actor}}.github.io/${{github.event.repository.name}}/",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "prettier": {
